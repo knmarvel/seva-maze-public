@@ -1,0 +1,16 @@
+/* Write your CSS Here. */
+.row {
+    display: flex;
+}
+
+.cell {
+    flex-basis: 40px;
+    height: 40px;
+}
+
+.cell.wall {
+    background-color: blue;
+}
+.cell.player {
+    background-color: red;
+}
